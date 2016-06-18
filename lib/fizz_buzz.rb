@@ -9,8 +9,9 @@ def fizz_buzz(number)
   when number % 15 === 0 then 'fizz buzz! '
 
     else
-      number + ' '
+      number #+ ' '
       #"hey, that's no number, now you're not playing according to the rules! ;)"
-end
+  end
 
 puts shout
+end

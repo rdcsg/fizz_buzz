@@ -8,18 +8,18 @@ describe 'fizz_buzz' do
   end
 
 
-  it 'returns "fizz" if my_number is dividable by 3' do
-      expect(fizz_buzz(my_number)).to eq "fizz"
+  it 'returns "fizz" if number is dividable by 3' do
+      expect(fizz_buzz(number)).to eq "fizz"
   end
 
 
-  it 'returns "buzz" if my_number is dividable by 5' do
-      expect(fizz_buzz(my_number)).to eq "buzz"
+  it 'returns "buzz" if number is dividable by 5' do
+      expect(fizz_buzz(number)).to eq "buzz"
   end
 
 
-  it 'returns "fizz buzz" if my_number is dividable by 15' do
-      expect(fizz_buzz(my_number)).to eq "fizz buzz"
+  it 'returns "fizz buzz" if number is dividable by 15' do
+      expect(fizz_buzz(number)).to eq "fizz buzz"
   end
 
 end
