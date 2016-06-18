@@ -9,17 +9,17 @@ describe 'fizz_buzz' do
 
 
   it 'returns "fizz" if number is dividable by 3' do
-      expect(fizz_buzz(number)).to eq "fizz"
+      expect(fizz_buzz(3)).to eq "fizz"
   end
 
 
   it 'returns "buzz" if number is dividable by 5' do
-      expect(fizz_buzz(number)).to eq "buzz"
+      expect(fizz_buzz(5)).to eq "buzz"
   end
 
 
   it 'returns "fizz buzz" if number is dividable by 15' do
-      expect(fizz_buzz(number)).to eq "fizz buzz"
+      expect(fizz_buzz(15)).to eq "fizz buzz"
   end
 
 end
